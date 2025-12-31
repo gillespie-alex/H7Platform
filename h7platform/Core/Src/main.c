@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "helpers.h"
 
 /* USER CODE END Includes */
 
@@ -123,6 +124,7 @@ int main(void)
   BSP_LED_On(LED_RED);
 
   /* USER CODE END BSP */
+  debug_me();
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
