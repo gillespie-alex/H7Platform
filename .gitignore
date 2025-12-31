@@ -55,4 +55,4 @@ dkms.conf
 *.dwo
 
 # STM32 Ignores
-h7platform/Debug
+h7platform/Debug/
